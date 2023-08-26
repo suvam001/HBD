@@ -26,8 +26,7 @@ setInterval(updateCountdown, 1000);
 // Photo Mosaic Wall
 document.addEventListener("DOMContentLoaded", () => {
     const photos = [
-        'photo1.jpg', 'photo2.jpg', 'photo3.jpg', 
-        'photo4.jpg', 'photo5.jpg'  // Add more photo filenames
+        '1.jpg', '2.jpg', '3.jpg'  // Add more photo filenames
     ];
 
     const mosaicContainer = document.getElementById('mosaic-container');
